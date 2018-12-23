@@ -8,7 +8,7 @@ var chocolateBars = [
 function addElementToBeginningOfArray(array, element) {
   array = chocolateBars;
   element = "mound";
-  return [element, ...array]
+  return [${element}, ${ ...array}]
 }
 
 function destructivelyAddElementToBeginningOfArray(array = chocolateBars, element = "poopbar") {
