@@ -5,6 +5,3 @@ var chocolateBars = [
   "skittles",
 ];
 
-function addElementToBeginningOfArray() {
-  return ["foo", ...chocolateBars]
-}
