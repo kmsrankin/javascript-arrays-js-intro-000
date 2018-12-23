@@ -8,5 +8,3 @@ var chocolateBars = [
 function addElementToBeginningOfArray(array = chocolateBars, element = "mound") {
   return [element, ...array]
 }
-
-
