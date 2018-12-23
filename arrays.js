@@ -10,5 +10,5 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return chocolateBars.push("poopbar")
+  return chocolateBars.push("foo")
 }
